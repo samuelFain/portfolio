@@ -244,9 +244,10 @@ section{
 
   .left-about {
       padding-right: 5rem;
+
       p {
           line-height: 2rem;
-          padding: 1rem;
+          padding-bottom: 1rem;
           color: var(--color-grey-1);
       }
       h4 {
@@ -273,7 +274,7 @@ section{
               color: var(--color-secondary)
           }
           .skill-text {
-            text-transform: uppercase;
+            //text-transform: uppercase;
             text-align: center;
           }
       }
@@ -305,7 +306,8 @@ section{
   padding-bottom: 3rem;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 2rem;
-  justify-items: center;
+  padding-left: 25%;
+  //justify-items: center;
 
   .timeline-item {
       position: relative;
@@ -331,12 +333,12 @@ section{
           border-radius: 15px;
           display: inline-block;
           font-size: .8rem;
-          text-transform: uppercase;
+          //text-transform: uppercase;
           font-weight: 500;
       }
       h5 {
           padding: 1rem 0;
-          text-transform: uppercase;
+          //text-transform: uppercase;
           font-size: 1.3rem;
           font-weight: 600;
           span {

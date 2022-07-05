@@ -256,7 +256,7 @@ section {
 }
 .about-container .left-about p {
   line-height: 2rem;
-  padding: 1rem;
+  padding-bottom: 1rem;
   color: var(--color-grey-1);
 }
 .about-container .left-about h4 {
@@ -284,7 +284,6 @@ section {
   color: var(--color-secondary);
 }
 .about-stats .progress-bars .progress-bar .skill-text {
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -311,7 +310,7 @@ section {
   padding-bottom: 3rem;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 2rem;
-  justify-items: center;
+  padding-left: 25%;
 }
 .timeline .timeline-item {
   position: relative;
@@ -340,12 +339,10 @@ section {
   border-radius: 15px;
   display: inline-block;
   font-size: 0.8rem;
-  text-transform: uppercase;
   font-weight: 500;
 }
 .timeline .timeline-item h5 {
   padding: 1rem 0;
-  text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 600;
 }
