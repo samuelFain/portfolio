@@ -28,10 +28,17 @@ function PageTransitions() {
 				section.classList.remove('active');
 			});
 
-      //add 'active' to current element by id
-      const element = document.getElementById(id)
-      element.classList.add('active')
+			//add 'active' to current element by id
+			const element = document.getElementById(id);
+			element.classList.add('active');
 		}
+	});
+
+	//dark-light toggle theme
+	const themeBtn = document.querySelector('.theme-btn');
+	themeBtn.addEventListener('click', () => {
+		let element = document.body;
+		element.classList.toggle('light-mode');
 	});
 }
 
