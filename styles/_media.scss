@@ -3,6 +3,34 @@
 }
 
 @media screen and (max-width: 600px) {
+  .section{
+    padding: 3% !important;
+  }
+
+  .left-contact{
+    text-align: center;
+  }
+
+  .left-about{
+    h4{
+      text-align: center;
+    }
+  }
+
+  .btn-container{
+    justify-content: center;
+  }
+
+  .right-header{
+    .btn-container{
+      padding-left: 20%;
+    }
+  }
+
+  .timeline{
+    padding: 5%;
+  }
+
   header{
       padding: 0 !important;
   }

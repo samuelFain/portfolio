@@ -237,6 +237,9 @@ section {
   margin: 1.5rem 0;
   line-height: 2rem;
 }
+.header-content .right-header p span {
+  color: var(--color-secondary);
+}
 
 /*About*/
 .about-container {
@@ -653,6 +656,30 @@ section {
 }
 
 @media screen and (max-width: 600px) {
+  .section {
+    padding: 3% !important;
+  }
+
+  .left-contact {
+    text-align: center;
+  }
+
+  .left-about h4 {
+    text-align: center;
+  }
+
+  .btn-container {
+    justify-content: center;
+  }
+
+  .right-header .btn-container {
+    padding-left: 20%;
+  }
+
+  .timeline {
+    padding: 5%;
+  }
+
   header {
     padding: 0 !important;
   }
