@@ -660,6 +660,10 @@ section {
     padding: 3% !important;
   }
 
+  .sec1 {
+    height: 100%;
+  }
+
   .left-contact {
     text-align: center;
   }
@@ -673,7 +677,7 @@ section {
   }
 
   .right-header .btn-container {
-    padding-left: 20%;
+    align-self: center;
   }
 
   .timeline {

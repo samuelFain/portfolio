@@ -3,8 +3,13 @@
 }
 
 @media screen and (max-width: 600px) {
+
   .section{
     padding: 3% !important;
+  }
+
+  .sec1{
+    height: 100%;
   }
 
   .left-contact{
@@ -23,7 +28,7 @@
 
   .right-header{
     .btn-container{
-      padding-left: 20%;
+      align-self: center;
     }
   }
 
