@@ -571,6 +571,7 @@ section {
 .btn-container {
   display: flex;
   align-self: flex-start;
+  cursor: pointer;
 }
 
 .main-btn {

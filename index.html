@@ -80,7 +80,7 @@
 						<div class="about-item">
 							<div class="abt-text">
 								<p class="large-text">Portfolio</p>
-								<p class="small-text">My best projects can be found in the 'portfolio' section.</p>
+								<p class="small-text">My projects can be found in the 'portfolio' section.</p>
 							</div>
 						</div>
 						<div class="about-item">
@@ -279,21 +279,21 @@
 							</div>
 						</div>
 						<div class="right-contact">
-							<form action="" class="contact-form">
+							<form id="contact-form" action="https://formsubmit.co/c3b5a679d5abd16722cb5cb945e20c16" method="POST" class="contact-form">
 								<div class="input-control i-c-2">
-									<input type="text" required placeholder="YOUR NAME" />
-									<input type="email" required placeholder="YOUR EMAIL" />
+									<input type="text" name="Name" required placeholder="YOUR NAME" />
+									<input type="email" name="Email" required placeholder="YOUR EMAIL" />
 								</div>
 								<div class="input-control">
-									<input type="text" required placeholder="ENTER SUBJECT" />
+									<input type="text" name="Subject" required placeholder="ENTER SUBJECT" />
 								</div>
 								<div class="input-control">
-									<textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+									<textarea name="Message" id="" cols="15" rows="8" placeholder="Message Here..." required></textarea>
 								</div>
-								<div class="submit-btn">
-									<a href="https://drive.google.com/file/d/10qjCF_7YjqFAo4sItmXpNywHPNZvLSFk/view?usp=sharing" target="_blank" class="main-btn">
-										<span class="btn-text">Download CV</span>
-										<span class="btn-icon"><i class="fas fa-download"></i></span>
+								<div class="btn-container">
+									<a type="submit" class="main-btn" onclick="document.getElementById('contact-form').submit()">
+										<span class="btn-text">Send Form</span>
+										<span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></span>
 									</a>
 								</div>
 							</form>
